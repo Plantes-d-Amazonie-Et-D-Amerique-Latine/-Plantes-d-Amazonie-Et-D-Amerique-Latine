@@ -73,7 +73,7 @@ theme_mode: dark # [light|dark]
 img_cdn: "https://bruda27.github.io/CDN/apple-touch-icon.png"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/CDN/apple-touch-icon.png"
+avatar: "https://bruda27.github.io/CDN/apple-touch-icon.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
