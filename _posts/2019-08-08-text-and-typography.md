@@ -1,9 +1,9 @@
 ---
-title: Text and Typography
-author: cotes
-date: 2019-08-08 11:33:00 +0800
+title: Breaking Boundaries
+author: Bruno
+date: 2024-02-01 11:33:00 +0800
 categories: [Blogging, Demo]
-tags: [typography]
+tags: [Latest-Project-Showcase]
 pin: true
 math: true
 mermaid: true
@@ -31,7 +31,7 @@ This post is to show Markdown syntax rendering on [**Chirpy**](https://github.co
 
 ## Paragraph
 
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
+Explore the intricacies of my most recent project, from conception to execution, and witness the innovative solutions it brings to the table.
 
 ## Lists
 
