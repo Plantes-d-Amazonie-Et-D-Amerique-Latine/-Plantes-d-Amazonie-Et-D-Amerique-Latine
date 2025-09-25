@@ -16,9 +16,11 @@ timezone: America/La_Paz
 
 title: Life Cycle # the main title
 
-tagline: Profesional Life Cyle Codification # it will display as the sub-title
+tagline: Plantes-d-Amazonie-Et-D-Amerique-Latine# it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
+description: >- La Asociación «Plantas de la Amazonia y América Latina» es una organización sin ánimo de lucro, constituida al amparo de la ley francesa del 1 de julio de 1901. Nacemos del invaluable patrimonio cultural y conocimiento de Laurent Poulet, fruto de más de dos décadas de investigación en botánica y agrobiodiversidad.
+
+Nuestro objeto principal es promover la gestión del conocimiento integral sobre la botánica, etnobotánica y agrobiodiversidad, mediante el diálogo de saberes ancestrales, tradicionales e intercientíficos para el beneficio de las comunidades y los ecosistemas.# used by seo meta and the atom feed
  Enconding my life experiences, a simulation of how real life can should have been looked in code.
 
 # Fill in the protocol & hostname for your site.
@@ -26,15 +28,15 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github.com/Bruda27
+  username: 
 
 twitter:
-  username: twitter_username:BrunoPj27
+  username: 
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Bruno Paniagua Jimenez
+  name: 
   email: bruno.pj27@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -63,7 +65,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light|dark]
+theme_mode: Light # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
