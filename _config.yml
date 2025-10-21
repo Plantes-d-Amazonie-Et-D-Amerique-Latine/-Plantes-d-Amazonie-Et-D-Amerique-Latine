@@ -72,7 +72,7 @@ theme_mode: Light # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://bruda27.github.io/CDN/apple-touch-icon.png"
+img_cdn: "https://github.com/Bruda27/CDN/blob/main/LogoPLantas.png"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://bruda27.github.io/CDN/apple-touch-icon.png"
