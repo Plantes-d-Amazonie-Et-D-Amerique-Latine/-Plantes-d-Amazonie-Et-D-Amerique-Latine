@@ -14,18 +14,17 @@ timezone: America/La_Paz
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Plantes-d-Amazonie-Et-D-Amerique-Latine # the main title
+title: Plantes-d-Amazonie-Et-D-Amerique-Latine
+tagline: Plantes-d-Amazonie-Et-D-Amerique-Latine
+description: >-
+  La Asociación «Plantas de la Amazonia y América Latina» es una organización sin ánimo de lucro, constituida al amparo de la ley francesa del 1 de julio de 1901. Nacemos del invaluable patrimonio cultural y conocimiento de Laurent Poulet, fruto de más de dos décadas de investigación en botánica y agrobiodiversidad.
 
-tagline: Plantes-d-Amazonie-Et-D-Amerique-Latine# it will display as the sub-title
+  Nuestro objeto principal es promover la gestión del conocimiento integral sobre la botánica, etnobotánica y agrobiodiversidad, mediante el diálogo de saberes ancestrales, tradicionales e intercientíficos para el beneficio de las comunidades y los ecosistemas.
+# used by seo meta and the atom feed
 
-description: >- 
-"La Asociación  «Plantas de la Amazonia y América Latina» es una organización sin ánimo de lucro, constituida al amparo de la ley francesa del 1 de julio de 1901. Nacemos del invaluable patrimonio cultural y conocimiento de Laurent Poulet, fruto de más de dos décadas de investigación en botánica y agrobiodiversidad.
-
-Nuestro objeto principal es promover la gestión del conocimiento integral sobre la botánica, etnobotánica y agrobiodiversidad, mediante el diálogo de saberes ancestrales, tradicionales e intercientíficos para el beneficio de las comunidades y los ecosistemas".# used by seo meta and the atom feed
- Enconding my life experiences, a simulation of how real life can should have been looked in code.
+# Encoding my life experiences, a simulation of how real life can should have been looked in code.
 
 # Fill in the protocol & hostname for your site.
-# e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
 
 github:
