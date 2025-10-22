@@ -1,4 +1,4 @@
----
+##---
 title: Breaking Boundaries
 author: Bruno
 date: 2024-02-01 11:33:00 +0800
@@ -185,4 +185,4 @@ The image below will toggle dark/light mode based on theme preference, notice it
 ## Reverse Footnote
 
 [^footnote]: The footnote source
-[^fn-nth-2]: The 2nd footnote source
+[^fn-nth-2]: The 2nd footnote source ##
