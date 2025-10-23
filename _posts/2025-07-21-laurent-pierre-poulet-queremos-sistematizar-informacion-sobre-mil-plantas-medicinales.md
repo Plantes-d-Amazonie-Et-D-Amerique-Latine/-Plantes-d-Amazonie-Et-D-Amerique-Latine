@@ -23,7 +23,7 @@ Hace siete semanas, tras un acuerdo con la Vicepresidencia del Estado, el invest
 
 La singular base de datos, cual enciclopedia del siglo XXI, es el fruto de décadas de investigaciones y trabajo de campo que, gracias a recursos como la Inteligencia Artificial (IA), se constituye en un dispositivo que servirá a legos y especialistas en la materia.
 
-{% include embed/youtube.html id='RfeIPb7We9s' %}
+
 
 En esta conversación exclusiva, Poulet habla del potencial de la plataforma, así como de su particular conocimiento y experiencias.
 
