@@ -1,0 +1,79 @@
+// Fix crítico para dispositivos táctiles
+@media (max-width: 768px) {
+  // Sidebar móvil
+  #sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 280px !important;
+    height: 100vh !important;
+    transform: translateX(-100%) !important;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    z-index: 1000 !important;
+    background: var(--card-bg) !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  
+  body[sidebar-display] #sidebar {
+    transform: translateX(0) !important;
+  }
+  
+  // Máscara del sidebar
+  #mask {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    z-index: 999 !important;
+    display: none !important;
+    cursor: pointer !important;
+    touch-action: manipulation !important;
+  }
+  
+  body[sidebar-display] #mask {
+    display: block !important;
+  }
+  
+  // Botones táctiles
+  #sidebar-trigger, #search-trigger, .btn, .nav-link {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    cursor: pointer !important;
+    touch-action: manipulation !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  // Asegurar que el contenido sea visible
+  .profile-wrapper {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .site-title, .site-subtitle {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
+
+// Prevenir zoom en inputs en iOS
+input, select, textarea {
+  font-size: 16px !important;
+  touch-action: manipulation !important;
+}
+
+// Mejorar scrolling táctil
+html {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+body {
+  touch-action: manipulation;
+}
