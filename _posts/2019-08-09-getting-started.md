@@ -1,4 +1,4 @@
----
+--
 title: "Bolivia firma convenio sobre digitalización de medicina tradicional (+Fotos)"
 date: 2025-05-29 21:56:25 +0000
 categories: [Ciencia, Nota Informativa]
@@ -10,8 +10,12 @@ image:
 pin: true
 math: false
 mermaid: false
-toc: true
-comments: true
+toc: false  # Esto debería eliminar "Contents"
+comments: false
+share: false  # Esto debería eliminar "Share"
+license: false  # Esto debería eliminar la licencia
+related_posts: false  # Esto debería eliminar "Recently Updated"
+hide_sidebar: true  # Esto podría ayudar a ocultar elementos de la barra lateral
 description: "La Vicepresidencia de Bolivia y la Asociación de Plantas de la Amazonía y América Latina rubricaron hoy un convenio de cooperación interinstitucional para desarrollar una plataforma digital con proyecciones de inteligencia artificial."
 ---
 
