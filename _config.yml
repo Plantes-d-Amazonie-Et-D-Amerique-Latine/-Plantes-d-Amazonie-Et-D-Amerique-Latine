@@ -72,10 +72,10 @@ theme_mode: Light # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://github.com/Bruda27/CDN/blob/main/LogoPLantas.png"
+img_cdn: "https://lpbolivie-bit.github.io/CDN/Logo.jpeg"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://github.com/Bruda27/CDN/blob/main/LogoPLantas.png"
+avatar: "https://lpbolivie-bit.github.io/CDN/Logo.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
