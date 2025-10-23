@@ -1,4 +1,5 @@
 ---
+layout: post-simple
 title: "Laurent Pierre Poulet: 'Queremos sistematizar información sobre mil plantas medicinales'"
 date: 2025-07-21 00:00:00 +0000
 categories: [Sociales]
