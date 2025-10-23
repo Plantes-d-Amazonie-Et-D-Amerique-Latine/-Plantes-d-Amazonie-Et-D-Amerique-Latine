@@ -11,8 +11,8 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: America/La_Paz
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
+math: true# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+mermaid: true# ↓ --------------------------
 
 title: Plantes-d-Amazonie-Et-D-Amerique-Latine!
 tagline: Plantes-d-Amazonie-Et-D-Amerique-Latine!
