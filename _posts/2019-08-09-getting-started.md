@@ -1,4 +1,5 @@
 ---
+layout: post-simple
 title: "Bolivia firma convenio sobre digitalización de medicina tradicional (+Fotos)"
 date: 2025-05-29 21:56:25 +0000
 categories: [Ciencia, Nota Informativa]
