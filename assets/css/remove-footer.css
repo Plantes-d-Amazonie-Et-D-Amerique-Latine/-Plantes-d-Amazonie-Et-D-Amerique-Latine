@@ -1,0 +1,20 @@
+/* Eliminar completamente el footer */
+.site-footer,
+footer,
+#tail-wrapper footer,
+.footer,
+[class*="footer"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* También ocultar cualquier elemento que contenga el texto del copyright */
+*:contains("© 2025"),
+*:contains("Some rights reserved"),
+*:contains("Chirpy theme") {
+    display: none !important;
+}
