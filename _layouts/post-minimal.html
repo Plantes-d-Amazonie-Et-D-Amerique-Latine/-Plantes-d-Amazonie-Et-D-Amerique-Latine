@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- Incluye solo los estilos esenciales -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  </head>
+
+  <body>
+    <main class="container">
+      <article class="px-1">
+        <header>
+          <h1>{{ page.title }}</h1>
+
+          <div class="post-meta text-muted">
+            <span>
+              {{ site.data.locales[site.lang].post.posted }}
+              <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %d, %Y" }}
+              </time>
+            </span>
+
+            {% if page.author %}
+              <span>
+                {{ site.data.locales[site.lang].post.written_by }}
+                <em>{{ page.author }}</em>
+              </span>
+            {% endif %}
+          </div>
+
+          {% if page.image %}
+            <div class="mt-3 mb-3">
+              <img src="{{ page.image.path }}" class="preview-img" alt="{{ page.image.alt }}" style="max-width: 100%; height: auto;">
+              {%- if page.image.alt -%}
+                <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+              {%- endif -%}
+            </div>
+          {% endif %}
+        </header>
+
+        <div class="content">
+          {{ content }}
+        </div>
+
+        <!-- Solo categorías y tags -->
+        {% if page.categories.size > 0 %}
+          <div class="post-meta mb-3">
+            <i class="far fa-folder-open fa-fw me-1"></i>
+            {% for category in page.categories %}
+              <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+              {%- unless forloop.last -%},{%- endunless -%}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if page.tags.size > 0 %}
+          <div class="post-tags">
+            <i class="fa fa-tags fa-fw me-1"></i>
+            {% for tag in page.tags %}
+              <a
+                href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+                class="post-tag no-text-decoration"
+              >
+                {{- tag -}}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+    </main>
+  </body>
+</html>
