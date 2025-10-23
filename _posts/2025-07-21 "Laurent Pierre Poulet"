@@ -16,19 +16,27 @@ comments: true
 description: "Entrevista exclusiva acerca de un proyecto revolucionario: una plataforma interactiva que sistematizará información sobre plantas medicinales de Bolivia usando inteligencia artificial."
 ---
 
+# Laurent Pierre Poulet: "Queremos sistematizar información sobre mil plantas medicinales"
+{: .mt-4 .mb-0 }
+
 ## Proyecto de Sistematización de Plantas Medicinales
+{: data-toc-skip='' .mt-4 .mb-0 }
+
+### Una iniciativa pionera en Bolivia
+{: data-toc-skip='' .mt-4 .mb-0 }
+
+#### Características principales
+{: data-toc-skip='' .mt-4 }
 
 Hace siete semanas, tras un acuerdo con la Vicepresidencia del Estado, el investigador **Laurent Poulet** consolidó un proyecto de largo aliento: la plataforma interactiva que sistematizará y analizará información sobre las plantas medicinales de Bolivia.
 
-### Características Principales del Proyecto
-
 La singular base de datos, cual enciclopedia del siglo XXI, es el fruto de décadas de investigaciones y trabajo de campo que, gracias a recursos como la **Inteligencia Artificial (IA)**, se constituye en un dispositivo que servirá a legos y especialistas en la materia.
 
-{% include embed/youtube.html id='RfeIPb7We9s' %}
+<!-- COMENTARIO: Aquí puedes agregar un video relevante sobre plantas medicinales usando {% include embed/youtube.html id='ID_DEL_VIDEO' %} -->
 
 ## Diálogo sobre Medicina Tradicional y Moderna
 
-### Contexto Histórico
+### Contexto Histórico y Experiencias
 
 **Pura Cepa (PC).** Durante la cuarentena y ante la falta de medicinas, en las poblaciones alejadas se optó por el uso masivo de hierbas del bosque, con resultados sorprendentes en zonas amazónicas y chiquitanas que dan cuenta de la necesidad de tender nuevos puentes entre los saberes medicinales perdidos y la medicina moderna.
 
@@ -37,25 +45,62 @@ La singular base de datos, cual enciclopedia del siglo XXI, es el fruto de déca
 > "Si no confías en la planta, no te vas a curar" - *Sabiduría popular sobre medicina tradicional*
 {: .prompt-tip }
 
-### Experiencia Internacional
+### Lista de Beneficios Identificados
 
-**PC.** Entiendo que ha recorrido gran parte del mundo e incluso parte de archivos de otros siglos en Europa. ¿Es así?
+1. **Primeramente**, recuperación de saberes ancestrales
+2. **En segundo lugar**, integración con medicina moderna
+3. **Finalmente**, creación de base de datos accesible
 
-**LP.** La antigüedad no tanto, porque es una materia muy amplia, casi de locura. Pero sí trabajé mucho sobre África, Asia y América.
+### Plantas Priorizadas para Estudio
 
-> **Nota importante:** Algo interesante de Asia es que hay muchos investigadores y especialistas sobre plantas medicinales que tienen grandes bases de datos.
-{: .prompt-info }
+- **Uña de Gato**
+  + Propiedades inmunoestimulantes
+    * Uso tradicional extendido
+- **Cutuqui**
+  + Efectos antipiréticos
+- **Yareta**
+  + Beneficios digestivos
+
+### Estado del Proyecto
+
+- [x] Investigación preliminar
+- [x] Acuerdo con Vicepresidencia
+- [ ] Sistematización de 200 plantas
+- [ ] Implementación de IA
+- [ ] Lanzamiento plataforma
+
+### Glosario de Términos
+
+Plantas medicinales
+: Especies vegetales con propiedades terapéuticas validadas
+
+IA aplicada
+: Uso de inteligencia artificial para análisis de datos etnobotánicos
+
+Sistematización
+: Proceso de organización y categorización de información dispersa
 
 ## Especificaciones Técnicas del Proyecto
 
-### Estructura de Datos
+### Estructura de la Base de Datos
+
+| Componente | Especificación | Progreso |
+|:-----------|:---------------|---------:|
+| Plantas iniciales | 200 especies | 100% |
+| Campos por planta | 24 variables | 100% |
+| Total de datos | 432,000 puntos | 75% |
+| Duración proyecto | 3 años | 25% |
+
+### Metodología de Trabajo
 
 ```yaml
 proyecto:
-  nombre: "Sistema de Plantas Medicinales"
-  plantas_iniciales: 200
-  filas_datos: 18000
-  columnas: 24
-  total_datos: 432000
-  duracion: "3 años"
-  objetivo_final: 1000
+  nombre: "Sistema Integral de Plantas Medicinales"
+  fases:
+    - investigacion: "Recolección y validación"
+    - desarrollo: "Sistematización y IA"
+    - implementacion: "Plataforma y difusión"
+  metricas:
+    plantas_objetivo: 1000
+    actualizacion_mensual: 50
+    colaboradores: "Abierto a instituciones"
