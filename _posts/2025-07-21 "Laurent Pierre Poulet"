@@ -1,0 +1,61 @@
+---
+title: "Laurent Pierre Poulet: 'Queremos sistematizar información sobre mil plantas medicinales'"
+date: 2025-07-21 00:00:00 +0000
+categories: [Botánica, Investigación]
+tags: [nacional, plantas medicinales, entrevistas, datos, ciencia, deforestación, salud, pura cepa, sociales, biodiversidad, ia, tecnología]
+author: Rafael Sagárnaga López
+image:
+  path: /assets/img/posts/2025/07/94b778b9-6418-444a-bfee-795bbef133fd.jpg
+  alt: Laurent Poulet comparte su proyecto con la prensa boliviana
+  lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=
+pin: true
+math: true
+mermaid: true
+toc: true
+comments: true
+description: "Entrevista exclusiva acerca de un proyecto revolucionario: una plataforma interactiva que sistematizará información sobre plantas medicinales de Bolivia usando inteligencia artificial."
+---
+
+## Proyecto de Sistematización de Plantas Medicinales
+
+Hace siete semanas, tras un acuerdo con la Vicepresidencia del Estado, el investigador **Laurent Poulet** consolidó un proyecto de largo aliento: la plataforma interactiva que sistematizará y analizará información sobre las plantas medicinales de Bolivia.
+
+### Características Principales del Proyecto
+
+La singular base de datos, cual enciclopedia del siglo XXI, es el fruto de décadas de investigaciones y trabajo de campo que, gracias a recursos como la **Inteligencia Artificial (IA)**, se constituye en un dispositivo que servirá a legos y especialistas en la materia.
+
+{% include embed/youtube.html id='RfeIPb7We9s' %}
+
+## Diálogo sobre Medicina Tradicional y Moderna
+
+### Contexto Histórico
+
+**Pura Cepa (PC).** Durante la cuarentena y ante la falta de medicinas, en las poblaciones alejadas se optó por el uso masivo de hierbas del bosque, con resultados sorprendentes en zonas amazónicas y chiquitanas que dan cuenta de la necesidad de tender nuevos puentes entre los saberes medicinales perdidos y la medicina moderna.
+
+**Laurent Poulet (LP).** Lo que cuenta me hace recordar que en esos días la gente descubrió los recursos que tenía o consultó a la gente que antes los aplicaba. Resurgieron muchos saberes que se los daba por olvidados.
+
+> "Si no confías en la planta, no te vas a curar" - *Sabiduría popular sobre medicina tradicional*
+{: .prompt-tip }
+
+### Experiencia Internacional
+
+**PC.** Entiendo que ha recorrido gran parte del mundo e incluso parte de archivos de otros siglos en Europa. ¿Es así?
+
+**LP.** La antigüedad no tanto, porque es una materia muy amplia, casi de locura. Pero sí trabajé mucho sobre África, Asia y América.
+
+> **Nota importante:** Algo interesante de Asia es que hay muchos investigadores y especialistas sobre plantas medicinales que tienen grandes bases de datos.
+{: .prompt-info }
+
+## Especificaciones Técnicas del Proyecto
+
+### Estructura de Datos
+
+```yaml
+proyecto:
+  nombre: "Sistema de Plantas Medicinales"
+  plantas_iniciales: 200
+  filas_datos: 18000
+  columnas: 24
+  total_datos: 432000
+  duracion: "3 años"
+  objetivo_final: 1000
