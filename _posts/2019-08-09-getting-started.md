@@ -1,5 +1,5 @@
 ---
-layout: post-minimal
+layout: post-simple
 title: "Bolivia firma convenio sobre digitalización de medicina tradicional (+Fotos)"
 date: 2025-05-29 21:56:25 +0000
 categories: [Ciencia, Nota Informativa]
@@ -8,7 +8,8 @@ author: Jorge Petinaud Martínez
 image:
   path: /assets/img/posts/2025/05/Bolivia-firma-convenio-digitalizacion-medicina-tradicional-1.jpg
   alt: Firma de convenio entre Vicepresidencia de Bolivia y Asociación de Plantas de la Amazonía
-pin: false
+pin: true  
+css: /assets/css/remove-footer.css
 math: false
 mermaid: false
 toc: false
